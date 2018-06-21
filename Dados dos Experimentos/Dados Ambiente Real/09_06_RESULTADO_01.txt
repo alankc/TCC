@@ -1,0 +1,200 @@
+Connecting to robot
+playerc warning   : warning : [Player v.3.0.2] connected on [localhost:6665] with sock 3
+
+Reading Map
+Map Resizing
+Mount DStartLite
+Init TaskPlanner
+loop 0
+-------
+1	4	563.4	140.85
+2	1	434.94	434.94
+3	3	360.97	120.323
+4	1	1406.44	1406.44
+5	5	2192.25	438.45
+-------
+1	4	741.74	185.435
+2	1	250.07	250.07
+4	1	1549.97	1549.97
+5	5	2335.78	467.156
+-------
+2	1	244.33	244.33
+4	1	1544.23	1544.23
+5	5	2330.04	466.008
+-------
+4	1	1311.87	1311.87
+5	5	2097.68	419.536
+-------
+4	1	992.01	992.01
+
+
+Time (Milliseconds)= 2707
+Time (Microseconds)= 2707384
+
+Task        : 3
+Priority    : 3
+Description : Task 3
+Going to: Sala 306
+point: -6.33143,-13.9243
+point: -5.81714,-13.41
+point: -5.81714,-12.3814
+point: -5.47429,-12.0386
+point: -4.53143,-12.0386
+point: -4.36,-11.8671
+START = GOAL
+Press enter to continue!
+Going to: Sala 312
+point: -4.10286,-12.1243
+point: 15.9543,-12.1243
+point: 16.1257,-12.2957
+START = GOAL
+Press enter to continue!
+Task        : 1
+Priority    : 4
+Description : Task 1
+Going to: Sala 303
+point: -1.27429,-12.21
+point: -1.36,-12.1243
+point: -4.87429,-12.1243
+point: -4.96,-12.0386
+point: -15.4171,-11.9529
+START = GOAL
+Press enter to continue!
+Going to: Sala 313
+point: 6.18286,-11.8671
+point: 6.52571,-11.5243
+point: 13.04,-11.5243
+point: 13.3829,-11.1814
+point: 16.1257,-11.0957
+START = GOAL
+Press enter to continue!
+Task        : 2
+Priority    : 1
+Description : Task 2
+Going to: Sala 309
+point: 11.5829,-11.0957
+point: 11.4971,-11.01
+point: 8.75429,-10.9243
+START = GOAL
+Press enter to continue!
+Going to: Sala 306
+point: 6.18286,-11.01
+point: 6.09714,-11.0957
+point: 3.44,-11.0957
+point: 3.35429,-11.1814
+point: -1.53143,-11.1814
+point: -2.21714,-11.8671
+point: -4.36,-11.8671
+START = GOAL
+Press enter to continue!
+Task        : 5
+Priority    : 5
+Description : Task 5
+Going to: Sala 314
+point: -4.36,-11.7814
+point: -4.36,-11.4386
+point: -5.64571,-10.1529
+point: -5.64571,-9.72429
+point: -5.81714,-9.55286
+point: -5.81714,12.39
+point: -6.41714,12.99
+point: -6.41714,23.1043
+point: -8.98857,25.6757
+point: -12.16,25.6757
+point: -13.1029,26.6186
+point: -15.8457,26.7043
+START = GOAL
+Press enter to continue!
+Going to: Sala 311
+point: -15.6743,26.6186
+point: -9.93143,26.6186
+point: -8.81714,25.5043
+point: -8.81714,22.3329
+point: -8.73143,22.2471
+point: -8.73143,17.7043
+point: -8.64571,17.6186
+point: -8.64571,14.3614
+point: -5.98857,11.7043
+point: -5.98857,-9.81
+point: -4.78857,-11.01
+point: 15.9543,-11.01
+START = GOAL
+Press enter to continue!
+Going to: Sala 322
+point: -4.70286,-11.0957
+point: -5.47429,-10.3243
+point: -5.47429,-10.2386
+point: -5.81714,-9.89571
+point: -5.81714,25.59
+point: -5.64571,25.7614
+point: -1.87429,25.7614
+point: -1.70286,25.9329
+point: -0.331429,25.9329
+point: 0.0114286,26.2757
+point: 2.75429,26.3614
+START = GOAL
+Press enter to continue!
+Task        : 4
+Priority    : 1
+Description : Task 4
+Going to: Sala 315
+point: 2.41143,26.1043
+point: 1.89714,26.1043
+point: 1.81143,26.0186
+point: -12.9314,26.0186
+point: -13.4457,25.5043
+point: -15.8457,25.5043
+START = GOAL
+Press enter to continue!
+Going to: Sala 311
+point: -9.07429,25.59
+point: -8.98857,25.6757
+point: -8.81714,25.5043
+point: -8.81714,22.3329
+point: -8.73143,22.2471
+point: -8.73143,17.7043
+point: -8.64571,17.6186
+point: -8.64571,14.3614
+point: -5.98857,11.7043
+point: -5.98857,-9.81
+point: -4.78857,-11.01
+point: 15.9543,-11.01
+START = GOAL
+Press enter to continue!
+loop 1
+loop 2
+loop 3
+loop 4
+^C
+x@PC:~/Documents/Link to TCC_2018/HospitalLogisticsRobot/dist/Release/GNU-Linux$ ./hospitallogisticsrobot 
+Connecting to robot
+playerc warning   : warning : [Player v.3.0.2] connected on [localhost:6665] with sock 3
+
+Reading Map
+Map Resizing
+Mount DStartLite
+Init TaskPlanner
+loop 0
+-------
+15	3	1253.19	417.73
+
+
+Time (Milliseconds)= 353
+Time (Microseconds)= 353291
+
+Task        : 15
+Priority    : 3
+Description : Task 15
+Going to: Estacionamento dos Robôs
+point: 6.78286,-11.0957
+point: 5.92571,-11.9529
+point: 5.32571,-11.9529
+point: 5.24,-12.0386
+point: -5.47429,-12.0386
+point: -5.64571,-12.21
+point: -5.64571,-12.2957
+point: -5.90286,-12.5529
+point: -5.90286,-21.21
+START = GOAL
+Press enter to continue!
+

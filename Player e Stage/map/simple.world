@@ -1,0 +1,65 @@
+# simple.world - basic world file example
+# Authors: Richard Vaughan
+# $Id$
+
+# Modifications
+# Alan Kunz Cechinel
+# Date: 16 Jun 2018
+
+include "../robot/pioneer.inc"
+include "map.inc"
+include "../robot/sick.inc"
+
+# time to pause (in GUI mode) or quit (in headless mode (-g)) the simulation
+quit_time 36000 # 1 hour of simulated time
+
+paused 1
+
+# spatial resolution of the underlying occupancy grid. Default is 0.02m.
+resolution 0.028571429
+
+# set the multiple of real time that Stage should try to achieve. Default is 1. 
+# set to 0 to go as fast as possible.
+speedup 1 
+
+# configure the GUI window
+window
+(
+  size [ 635.000 666.000 ] # in pixels
+  scale 35   # pixels per meter
+  center [ 0  0 ]
+  rotate [ 0  0 ]
+  			
+  show_data 1              # 1=on 0=off
+)
+
+# load an environment bitmap
+floorplan
+( 
+  name "cave"
+  size [33.32 61.03 2.00]
+  pose [0.00 0.00 0.00 0.00]
+  bitmap "final_map__.pgm"
+)
+
+
+fancypioneer2dx
+(		  
+  # can refer to the robot by this name
+  name "r0"
+#  pose [ -5.89 -11.2 0 -90.000 ] 
+  pose [ -5.89 -21.2 0 -90.000 ] 
+  # pioneer2dx's sonars	will be ranger:0 and the laser will be ranger:1
+  sicklaser( 
+				pose [ 0 0 0 0 ]
+				ctrl "lasernoise" 
+		   ) 
+ 
+  # demonstrate a plugin controller, implemented in examples/ctrl/wander.cc
+  # you probably should comment this out when using simple.cfg with Player
+  #ctrl "wander"
+
+  # report error-free position in world coordinates
+  localization "gps"
+  localization_origin [ 0 0 0 0 ]
+)

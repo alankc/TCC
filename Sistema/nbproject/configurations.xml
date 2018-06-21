@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="Auxiliar" displayName="Auxiliar" projectFiles="true">
+      <logicalFolder name="f2" displayName="Header Files" projectFiles="true">
+        <itemPath>Auxiliar/MapResizer.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="Source Files" projectFiles="true">
+        <itemPath>Auxiliar/MapResizer.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="DataBase" displayName="DataBase" projectFiles="true">
+      <logicalFolder name="f2" displayName="Header Files" projectFiles="true">
+        <itemPath>DataBase/DaoGeneral.h</itemPath>
+        <itemPath>DataBase/DaoTask.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="Source Files" projectFiles="true">
+        <itemPath>DataBase/DaoGeneral.cpp</itemPath>
+        <itemPath>DataBase/DaoTask.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="PathPlanning"
+                   displayName="PathPlanning"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="Header Files" projectFiles="true">
+        <itemPath>PathPlanning/DStartLite.h</itemPath>
+        <itemPath>PathPlanning/PathPlanningDefines.h</itemPath>
+        <itemPath>PathPlanning/PriorityQueue.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="Source Files" projectFiles="true">
+        <itemPath>PathPlanning/DStartLite.cpp</itemPath>
+        <itemPath>PathPlanning/PriorityQueue.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TasksPlanning"
+                   displayName="TasksPlanning"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="Header Files" projectFiles="true">
+        <itemPath>TasksPlanning/TaskPlanner.h</itemPath>
+        <itemPath>TasksPlanning/TaskPlanningDefines.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="Source Files" projectFiles="true">
+        <itemPath>TasksPlanning/TaskPlanner.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>PathPlanning</Elem>
+    <Elem>TasksPlanning</Elem>
+    <Elem>Auxiliar</Elem>
+    <Elem>DataBase</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>/usr/local/include/player-3.0</pElem>
+            <pElem>/usr/include/cppconn</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerOptionItem>-L/usr/local/lib64 -lplayerc++ -lboost_thread -lboost_signals -lm -lplayerc -lm -lz -lplayerinterface -lplayerwkb -lplayercommon -lboost_system -L/usr/lib -lmysqlcppconn</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Auxiliar/MapResizer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Auxiliar/MapResizer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DataBase/DaoGeneral.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DataBase/DaoGeneral.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DataBase/DaoTask.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DataBase/DaoTask.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PathPlanning/DStartLite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PathPlanning/DStartLite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PathPlanning/PathPlanningDefines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PathPlanning/PriorityQueue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PathPlanning/PriorityQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TasksPlanning/TaskPlanner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TasksPlanning/TaskPlanner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TasksPlanning/TaskPlanningDefines.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>/usr/local/include/player-3.0</pElem>
+            <pElem>/usr/include/cppconn</pElem>
+          </incDir>
+          <commandLine>-D STATISTICS</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hospitallogisticsrobot</output>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerOptionItem>-L/usr/local/lib64 -lplayerc++ -lboost_thread -lboost_signals -lm -lplayerc -lm -lz -lplayerinterface -lplayerwkb -lplayercommon -lboost_system -L/usr/lib -lmysqlcppconn</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Auxiliar/MapResizer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Auxiliar/MapResizer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DataBase/DaoGeneral.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DataBase/DaoGeneral.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DataBase/DaoTask.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DataBase/DaoTask.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PathPlanning/DStartLite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PathPlanning/DStartLite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PathPlanning/PathPlanningDefines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PathPlanning/PriorityQueue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PathPlanning/PriorityQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TasksPlanning/TaskPlanner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TasksPlanning/TaskPlanner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TasksPlanning/TaskPlanningDefines.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

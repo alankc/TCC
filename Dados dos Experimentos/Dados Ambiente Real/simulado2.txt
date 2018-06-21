@@ -1,0 +1,206 @@
+Connecting to robot
+playerc warning   : warning : [Player v.3.0.2] connected on [localhost:6665] with sock 3
+
+Reading Map
+Map Resizing
+Mount DStartLite
+Init TaskPlanner
+loop 0
+-------
+1	4	576.04	144.01
+2	1	441.25	441.25
+3	3	368.1	122.7
+4	1	1428.26	1428.26
+5	5	2216.92	443.384
+-------
+1	4	743.38	185.845
+2	1	250.07	250.07
+4	1	1566.69	1566.69
+5	5	2355.35	471.07
+-------
+2	1	244.33	244.33
+4	1	1560.95	1560.95
+5	5	2349.61	469.922
+-------
+4	1	1325.64	1325.64
+5	5	2114.3	422.86
+-------
+4	1	1000.37	1000.37
+
+
+Time (Milliseconds)= 2234
+Time (Microseconds)= 2234739
+
+Task        : 3
+Priority    : 3
+Description : Task 3
+Going to: Sala 306
+point: -5.90286,-12.1243
+point: -5.56,-11.7814
+point: -4.87429,-11.7814
+point: -4.78857,-11.8671
+point: -4.36,-11.8671
+START = GOAL
+Press enter to continue!
+Going to: Sala 312
+point: -4.36,-11.8671
+point: -1.27429,-11.8671
+point: -1.18857,-11.9529
+point: 2.15429,-11.9529
+point: 2.24,-12.0386
+point: 2.49714,-12.0386
+point: 2.58286,-12.1243
+point: 15.9543,-12.1243
+point: 16.1257,-12.2957
+START = GOAL
+Press enter to continue!
+Task        : 1
+Priority    : 4
+Description : Task 1
+Going to: Sala 303
+point: 6.18286,-12.21
+point: 6.09714,-12.1243
+point: 2.58286,-12.1243
+point: 2.49714,-12.0386
+point: 2.24,-12.0386
+point: 2.15429,-11.9529
+point: -1.18857,-11.9529
+point: -1.27429,-11.8671
+point: -4.78857,-11.8671
+point: -4.87429,-11.7814
+point: -8.98857,-11.7814
+point: -9.07429,-11.8671
+point: -12.76,-11.8671
+point: -12.8457,-11.9529
+point: -15.4171,-11.9529
+START = GOAL
+Press enter to continue!
+Going to: Sala 313
+point: -9.07429,-11.8671
+point: -8.98857,-11.7814
+point: 12.7829,-11.7814
+point: 13.3829,-11.1814
+point: 16.1257,-11.0957
+START = GOAL
+Press enter to continue!
+Task        : 2
+Priority    : 1
+Description : Task 2
+Going to: Sala 309
+point: 11.5829,-11.0957
+point: 11.4971,-11.01
+point: 8.75429,-10.9243
+START = GOAL
+Press enter to continue!
+Going to: Sala 306
+point: 6.09714,-11.01
+point: 6.01143,-11.0957
+point: 3.35429,-11.0957
+point: 3.26857,-11.1814
+point: -1.53143,-11.1814
+point: -2.21714,-11.8671
+point: -4.36,-11.8671
+START = GOAL
+Press enter to continue!
+Task        : 5
+Priority    : 5
+Description : Task 5
+Going to: Sala 314
+point: -4.44571,-11.7814
+point: -5.81714,-10.41
+point: -5.81714,-10.3243
+point: -6.50286,-9.63857
+point: -6.50286,12.2186
+point: -8.38857,14.1043
+point: -8.38857,17.7043
+point: -8.47429,17.79
+point: -8.47429,22.3329
+point: -8.56,22.4186
+point: -8.56,25.59
+point: -8.64571,25.6757
+point: -8.64571,25.7614
+point: -8.73143,25.8471
+point: -8.81714,25.8471
+point: -8.90286,25.9329
+point: -12.4171,25.9329
+point: -13.1029,26.6186
+point: -15.8457,26.7043
+START = GOAL
+Press enter to continue!
+Going to: Sala 311
+point: -15.6743,26.5329
+point: -10.36,26.5329
+point: -10.2743,26.4471
+point: -9.33143,26.4471
+point: -8.64571,25.7614
+point: -8.64571,25.6757
+point: -8.56,25.59
+point: -8.56,22.4186
+point: -8.47429,22.3329
+point: -8.47429,17.79
+point: -8.38857,17.7043
+point: -8.38857,13.5043
+point: -6.24571,11.3614
+point: -6.24571,-9.98143
+point: -5.21714,-11.01
+point: 15.9543,-11.01
+START = GOAL
+Press enter to continue!
+Going to: Sala 322
+point: -5.13143,-11.0957
+point: -5.81714,-10.41
+point: -5.81714,-10.3243
+point: -6.07429,-10.0671
+point: -6.07429,25.6757
+point: -5.73143,26.0186
+point: -2.04571,26.0186
+point: -1.87429,26.19
+point: -0.0742857,26.19
+point: 0.0114286,26.2757
+point: 1.64,26.2757
+point: 1.72571,26.3614
+point: 2.75429,26.3614
+START = GOAL
+Press enter to continue!
+Task        : 4
+Priority    : 1
+Description : Task 4
+Going to: Sala 315
+point: 2.58286,26.3614
+point: 1.72571,26.3614
+point: 1.64,26.2757
+point: -8.13143,26.2757
+point: -8.30286,26.1043
+point: -12.8457,26.1043
+point: -13.4457,25.5043
+point: -15.8457,25.5043
+START = GOAL
+Press enter to continue!
+Going to: Sala 311
+point: -13.1029,25.59
+point: -13.0171,25.6757
+point: -12.8457,25.6757
+point: -12.76,25.7614
+point: -9.41714,25.7614
+point: -9.33143,25.8471
+point: -9.16,25.8471
+point: -9.07429,25.9329
+point: -8.90286,25.9329
+point: -8.81714,25.8471
+point: -8.73143,25.8471
+point: -8.64571,25.7614
+point: -8.64571,25.6757
+point: -8.56,25.59
+point: -8.56,22.4186
+point: -8.47429,22.3329
+point: -8.47429,17.79
+point: -8.38857,17.7043
+point: -8.38857,13.5043
+point: -6.24571,11.3614
+point: -6.24571,-9.98143
+point: -5.21714,-11.01
+point: 15.9543,-11.01
+START = GOAL
+Press enter to continue!
+loop 1
+
